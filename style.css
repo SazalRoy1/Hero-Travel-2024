@@ -4,3 +4,44 @@
 *{
        font-family: "Mulish", sans-serif;
 }
+header{
+    padding: 50px 240px;
+}
+
+/* start nav section */
+.nav-logo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-logo-title{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.hero{
+    font-size: 36px;
+}
+.travel{
+    font-size: 36px;
+    color: rgb(255, 84, 0);
+}
+ .nav-list > ul{
+    display: flex;
+    list-style: none;
+     gap: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.home{
+    
+    color:rgb(255, 84, 0);
+}
+
+.nav-list li a{
+    text-decoration: none;
+    text-align: center;
+    
+
+}
