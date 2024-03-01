@@ -3,9 +3,11 @@
 
 *{
        font-family: "Mulish", sans-serif;
+       
 }
 header{
-    padding: 50px 240px;
+   
+    padding: 50px 340px;
 }
 
 /* start nav section */
@@ -38,10 +40,130 @@ header{
     
     color:rgb(255, 84, 0);
 }
-
 .nav-list li a{
     text-decoration: none;
     text-align: center;
+    color: rgb(66, 66, 71);
     
 
 }
+/* end nav ------section */
+
+
+
+/* start bannar section */
+
+.image-section img{
+
+   position: absolute;
+} 
+
+.bannar-text{
+    padding: 40px;
+    position: relative;
+    text-align: center;
+}
+.head-text{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+     font-size: 4rem; 
+    /* font-size: 64px; */
+}
+.peragraph-text{
+    color:rgb(255, 255, 255) ;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
+
+.input-section{
+    margin-left: 50px;
+    margin: 0 auto;
+    width: 30px;
+}
+
+
+.input-title{
+    margin-left:-420px;
+    gap: 5px;
+    display: flex;
+    
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+     text-align: center; 
+    align-items: center; 
+    position: relative;
+}
+
+.input-title input{
+    
+    border: 10px solid red;
+    border-radius: 10px;
+    border: 0;
+    padding: 20px;
+}
+.findnow-clr input{
+    color: white;
+    background-color: rgb(255, 84, 0);
+}
+
+
+
+/* resposive section start */
+
+/* for Mobile devices */
+@media screen and (min-width:300px) and (max-width:600px) {
+    .nav-logo-item{
+        
+      flex-direction: column;
+ 
+    }
+    .logo-title{
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .nav-list  > ul {
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+  .image-section img{
+    
+    width: 60%;
+
+  }
+
+
+ 
+}
+
+
+
+/* laptop desktop devices  */
+@media screen and (max-width:992px) {
+    .nav-logo-item{
+      flex-direction: column;
+ 
+    }
+    .nav-logo-title{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .nav-list > ul{
+        flex-direction: column;
+    }
+
+    .image-section img{
+    
+        width: 80%;
+    
+      }
+}
+/* responsive section end */
