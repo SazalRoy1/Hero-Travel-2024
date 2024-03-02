@@ -226,30 +226,6 @@ main{
 }
 /* why  choose section end */
 
-
- /* newsletter section start */
-    /* .news-letter{
-        border: red;
-        display: flex;
-        gap: 20px;
-        background-color: aqua;
-    }
-    .Newsletter-content{
-      border: red;
-    }
-.Newsletter button{
-    padding: 15px 15px;
-    width: 100%;
-    background-color: orangered;
-    border: none;
-    border-radius: 6px;
-    margin-top: 25px;
-    cursor: pointer;
-    color: white;
-    font-weight: bold;
-} */
-
-
 .Newsletter{
     gap: 10px;
     display: flex;
@@ -482,15 +458,6 @@ footer .border{
     .head-text {
         font-size: 10px;
         padding: -20px;
-        
       }
-      /* .destination img{
-        width:20% ;
-      }
-      .destinaton-row{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    } */
-      
 }
 /* responsive section end */
