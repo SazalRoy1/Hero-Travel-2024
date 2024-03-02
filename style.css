@@ -225,7 +225,81 @@ main{
     background-color:rgba(233, 68, 68, 0.2);
 }
 /* why  choose section end */
- 
+
+
+ /* newsletter section start */
+    /* .news-letter{
+        border: red;
+        display: flex;
+        gap: 20px;
+        background-color: aqua;
+    }
+    .Newsletter-content{
+      border: red;
+    }
+.Newsletter button{
+    padding: 15px 15px;
+    width: 100%;
+    background-color: orangered;
+    border: none;
+    border-radius: 6px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+} */
+
+
+.Newsletter{
+    gap: 10px;
+    display: flex;
+    width: 30%;
+    margin: auto;
+    padding: 250px 0;
+    margin-left: 50px;
+}
+.Newsletter-content{
+    margin-right: 10px;
+    border: 1px solid orangered;
+    padding: 30px;
+    border-radius: 15px;
+}
+.Newsletter input{
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px 15px;
+    background-color: rgba(19, 19, 24, 0.05);
+    border: none;
+    border-radius: 6px;
+}
+.Newsletter h4{
+    font-size: 30px;
+}
+.Newsletter p{
+    margin-top: 15px;
+    font-size: 15px;
+    color: rgba(19, 19, 24, 0.50);
+}
+.Newsletter .border{
+    border-bottom: 1px solid rgba(19, 19, 24, 0.05);
+    margin-top: 25px;
+}
+.Newsletter button{
+    padding: 15px 15px;
+    width: 100%;
+    background-color: orangered;
+    border: none;
+    border-radius: 6px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+ /* newsletter section end */
 
 
 /* footer section  start*/
@@ -273,6 +347,10 @@ footer .border{
 .copywright-content{
     margin-top: 55px;
 }
+.footer-travel{
+    color: rgb(255, 84, 0) ;
+}
+
 /* footer sectgion end */
 
 
@@ -356,6 +434,16 @@ footer .border{
     width: 100%;
     margin-left: 20px;
     align-items: center;
+}
+.Newsletter{
+    width: 100%;
+ margin-left: 30px;
+    flex-direction: column;
+
+}
+.Newsletter img{
+    width: 100%;
+    margin-left: -40px;
 }
 
 }
