@@ -145,6 +145,91 @@ main{
 }
 
 
+/* choose your destination start */
+.destination-images{
+   margin: 50px 0px;
+}
+
+ .destination-content{
+    margin-top: 60px;
+    text-align: center;
+ }
+ .destination-content h3{
+    font-size: 2rem;
+    font-weight: 700;
+ }
+ .destination-content p{
+    
+  font-size: 15px;
+ }
+
+ .destinaton-row{
+    display: flex;
+    gap: 15px;
+    
+ }
+ .destinaton-row-img {
+    display: flex;
+    margin-top:25px;
+    margin: 15px;
+    gap: 15px;
+ }
+ .destinaton-row-images{
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+ }
+/* choose your destination  end*/
+
+
+/* why choose section start */
+
+.choose-content{
+
+    text-align: center;
+}
+.choose-content h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.choose-content p{
+    font-size: 15px;
+}
+
+.services{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.hotel-service{
+    font-weight: 400;
+    padding: 40px;
+    border-radius:10px;
+    background-color: rgba(251, 181, 99, 0.2);
+}
+.would-service{
+    font-weight: 400;
+    padding: 40px;
+    border-radius:10px;
+    background-color:rgba(41, 206, 246, 0.2);
+}
+.best-price{
+
+    margin-left: 280px;
+    align-items: center;
+    justify-content: center;
+     width: 50%;
+    font-weight: 400;
+    padding:20px;
+    border-radius:10px;
+    background-color:rgba(233, 68, 68, 0.2);
+}
+/* why  choose section end */
+
+
+
+
+
 /* resposive section start */
 
 /* for Mobile devices */
@@ -208,6 +293,17 @@ main{
     width: 60%;
     margin-left: 60px;
 }
+.destinaton-row{
+    flex-direction: column;
+}
+.destinaton-row-img{
+    flex-direction: column;
+}
+.destinaton-row-images{
+    flex-direction: column;
+}
+
+
 
 }
 
@@ -247,5 +343,13 @@ main{
         padding: -20px;
         
       }
+      /* .destination img{
+        width:20% ;
+      }
+      .destinaton-row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } */
+      
 }
 /* responsive section end */
